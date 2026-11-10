@@ -12,13 +12,6 @@ Aplicación nativa de lista de compras para iPhone, desarrollada con **Swift + S
 - Eliminar productos deslizando la fila o limpiar los comprados.
 - Guardado local automático con `UserDefaults`.
 
-## Abrir en Xcode
-1. Descomprime `CompraFacilSwift.zip`.
-2. Abre `CompraFacil.xcodeproj` en Xcode (macOS).
-3. Selecciona un simulador de iPhone o conecta tu iPhone.
-4. En **Signing & Capabilities**, selecciona tu equipo de desarrollo.
-5. Ejecuta con `⌘R`.
-
 **Requisitos:** Xcode 15 o superior, iOS 17 o superior.
 
 ## Estructura
@@ -28,4 +21,4 @@ Aplicación nativa de lista de compras para iPhone, desarrollada con **Swift + S
 - `ShoppingItem.swift`: modelo y categorías.
 - `ShoppingStore.swift`: estado, cálculos y persistencia local.
 
-Los precios de ejemplo son demostrativos. Puedes reemplazarlos o agregar tus productos reales.
+Los precios de ejemplo son demostrativos. 
