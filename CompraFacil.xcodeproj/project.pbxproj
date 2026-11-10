@@ -1,0 +1,65 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+
+/* Begin PBXBuildFile section */
+  A10000000000000000000001 /* CompraFacilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* CompraFacilApp.swift */; };
+  A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
+  A10000000000000000000003 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000003 /* ShoppingItem.swift */; };
+  A10000000000000000000004 /* ShoppingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000004 /* ShoppingStore.swift */; };
+  A10000000000000000000005 /* ProductFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000005 /* ProductFormView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+  B10000000000000000000001 /* CompraFacilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraFacilApp.swift; sourceTree = "<group>"; };
+  B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+  B10000000000000000000003 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+  B10000000000000000000004 /* ShoppingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingStore.swift; sourceTree = "<group>"; };
+  B10000000000000000000005 /* ProductFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFormView.swift; sourceTree = "<group>"; };
+  B10000000000000000000006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  B10000000000000000000007 /* Products.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompraFacil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+  C10000000000000000000001 = {isa = PBXGroup; children = (C10000000000000000000002, C10000000000000000000003,); sourceTree = "<group>"; };
+  C10000000000000000000002 /* CompraFacil */ = {isa = PBXGroup; path = CompraFacil; sourceTree = "<group>"; children = (B10000000000000000000001, B10000000000000000000002, B10000000000000000000003, B10000000000000000000004, B10000000000000000000005, B10000000000000000000006,); };
+  C10000000000000000000003 /* Products */ = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (B10000000000000000000007,); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+  D10000000000000000000001 /* CompraFacil */ = {isa = PBXNativeTarget; buildConfigurationList = E10000000000000000000002; buildPhases = (F10000000000000000000001, F10000000000000000000002, F10000000000000000000003,); buildRules = (); dependencies = (); name = CompraFacil; productName = CompraFacil; productReference = B10000000000000000000007; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+  D10000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1500;}; buildConfigurationList = E10000000000000000000001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = C10000000000000000000001; productRefGroup = C10000000000000000000003; projectDirPath = ""; projectRoot = ""; targets = (D10000000000000000000001,); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+  F10000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+  F10000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+  F10000000000000000000003 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+  900000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Debug; };
+  900000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0;}; name = Release; };
+  900000000000000000000003 /* Debug target */ = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Compra Fácil"; INFOPLIST_KEY_UILaunchScreen_Generation = YES; PRODUCT_BUNDLE_IDENTIFIER = com.johansitodev.comprafacil; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = "1,2"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0;}; name = Debug; };
+  900000000000000000000004 /* Release target */ = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Compra Fácil"; INFOPLIST_KEY_UILaunchScreen_Generation = YES; PRODUCT_BUNDLE_IDENTIFIER = com.johansitodev.comprafacil; PRODUCT_NAME = "$(TARGET_NAME)"; TARGETED_DEVICE_FAMILY = "1,2"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0;}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+  E10000000000000000000001 /* Project config */ = {isa = XCConfigurationList; buildConfigurations = (900000000000000000000001, 900000000000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  E10000000000000000000002 /* Target config */ = {isa = XCConfigurationList; buildConfigurations = (900000000000000000000003, 900000000000000000000004,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+ };
+ rootObject = D10000000000000000000002;
+}
